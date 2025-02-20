@@ -39,3 +39,25 @@ flowchart TD
     P --> Q
     end
 ```
+```mermaid
+    sequenceDiagram
+    participant H as Hardware
+    participant D as Driver
+    participant T as Test Framework
+    participant R as Results
+    
+    T->>D: Load Driver
+    D->>H: Initialize Hardware
+    H-->>D: Hardware Status
+    D-->>T: Initialization Result
+    
+    alt Successful Initialization
+        T->>D: Execute Tests
+        D->>H: Hardware Operations
+        H-->>D: Operation Results
+        D-->>T: Test Results
+        T->>R: Generate Report
+    else Failed Initialization
+        T->>R: Log Error
+    end
+```
