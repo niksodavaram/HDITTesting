@@ -1,6 +1,6 @@
 # HDITTesting
 
-
+```mermaid
 flowchart TD
     subgraph Initialization
     A[Start HDIT] --> B[Initialize Hardware]
@@ -38,3 +38,4 @@ flowchart TD
     L --> Q[Test Completion]
     P --> Q
     end
+```
