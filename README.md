@@ -1,5 +1,7 @@
 # HDITTesting
 
+## HDIT Process Flow
+
 ```mermaid
 flowchart TD
     subgraph Initialization
@@ -39,6 +41,8 @@ flowchart TD
     P --> Q
     end
 ```
+
+## HDIT Sequence Diagram
 ```mermaid
     sequenceDiagram
     participant H as Hardware
