@@ -1,4 +1,4 @@
-# HDITTesting
+# Hardware Driver Interface Testing
 
 ## HDIT Architecture Framework
 ```python
