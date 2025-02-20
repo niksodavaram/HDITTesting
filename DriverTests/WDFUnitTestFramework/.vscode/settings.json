@@ -1,0 +1,23 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\km",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\wdf\\kmdf\\1.15",
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um"
+    ],
+    "C_Cpp.default.defines": [
+        "_AMD64_",
+        "DRIVER",
+        "_WIN64",
+        "NDEBUG",
+        "WINNT=1",
+        "_WINNT_",
+        "_DDK_",
+        "_WDF_KMDF_",
+        "KERNEL_MODE"
+    ],
+    "C_Cpp.default.windowsSdkVersion": "10.0.22000.0",
+    "C_Cpp.default.compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64"
+}
